@@ -1,0 +1,17 @@
+export const pagesRoutes = [
+  ["v-8daa1a0e","/",{"y":"h","t":"首页","i":"home"},["/README.md"]],
+  ["v-36b1a79b","/document/",{"y":"a","t":"开发文档","i":"code"},["/document/README.md"]],
+  ["v-740adfb8","/file/constitution.html",{"y":"h","t":"社团章程"},[":md"]],
+  ["v-1491bada","/file/",{"y":"h","t":"资料公开","i":"file"},["/file/README.md"]],
+  ["v-2d0a983f","/ja/",{"y":"h","t":"ホームページ","i":"home"},["/ja/README.md"]],
+  ["v-2e1e9184","/notice/",{"y":"h","t":"通知","i":"bullhorn"},["/notice/README.md"]],
+  ["v-8c1f462c","/ja/file/constitution.html",{"y":"h","t":"社团章程"},[":md"]],
+  ["v-3b247154","/ja/file/",{"y":"h","t":"資料","i":"file"},["/ja/file/README.md"]],
+  ["v-94a09190","/ja/notice/",{"y":"h","t":"お知らせ","i":"bullhorn"},["/ja/notice/README.md"]],
+  ["v-538c91eb","/ja/notice/guide/",{"y":"a","t":"Guide","i":"lightbulb"},["/ja/notice/guide/README.md"]],
+  ["v-ea701cf6","/ja/notice/guide/bar/baz.html",{"y":"a","t":"Baz","i":"circle-info"},[":md"]],
+  ["v-940caa32","/ja/notice/guide/bar/",{"y":"a","t":"Bar feature","i":"lightbulb"},["/ja/notice/guide/bar/README.md"]],
+  ["v-6d91ef83","/ja/notice/guide/foo/ray.html",{"y":"a","t":"Ray","i":"circle-info"},[":md"]],
+  ["v-94089ed8","/ja/notice/guide/foo/",{"y":"a","t":"Foo feature","i":"lightbulb"},["/ja/notice/guide/foo/README.md"]],
+  ["v-3706649a","/404.html",{"y":"p","t":""},[]],
+]
