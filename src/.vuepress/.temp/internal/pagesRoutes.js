@@ -3,6 +3,8 @@ export const pagesRoutes = [
   ["v-36b1a79b","/document/",{"y":"a","t":"开发文档","i":"code"},["/document/README.md"]],
   ["v-740adfb8","/file/constitution.html",{"y":"h","t":"社团章程"},[":md"]],
   ["v-1491bada","/file/",{"y":"h","t":"资料公开","i":"file"},["/file/README.md"]],
+  ["v-07ad1a70","/journal/7-8.html",{"y":"a","t":"7-8周"},[":md"]],
+  ["v-d04bbc5e","/journal/",{"y":"a","t":"周报","i":"eye"},["/journal/README.md"]],
   ["v-2d0a983f","/ja/",{"y":"h","t":"ホームページ","i":"home"},["/ja/README.md"]],
   ["v-2e1e9184","/notice/",{"y":"h","t":"通知","i":"bullhorn"},["/notice/README.md"]],
   ["v-8c1f462c","/ja/file/constitution.html",{"y":"h","t":"社团章程"},[":md"]],

@@ -1,6 +1,7 @@
 ---
 title: 开发文档
 icon: code
+sidebar: structure
 copyright: false
 comment: false
 card: true

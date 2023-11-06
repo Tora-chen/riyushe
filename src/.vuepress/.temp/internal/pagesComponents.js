@@ -9,6 +9,10 @@ export const pagesComponents = {
   "v-740adfb8": defineAsyncComponent(() => import(/* webpackChunkName: "v-740adfb8" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/constitution.html.vue")),
   // path: /file/
   "v-1491bada": defineAsyncComponent(() => import(/* webpackChunkName: "v-1491bada" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/index.html.vue")),
+  // path: /journal/7-8.html
+  "v-07ad1a70": defineAsyncComponent(() => import(/* webpackChunkName: "v-07ad1a70" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/journal/7-8.html.vue")),
+  // path: /journal/
+  "v-d04bbc5e": defineAsyncComponent(() => import(/* webpackChunkName: "v-d04bbc5e" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/journal/index.html.vue")),
   // path: /ja/
   "v-2d0a983f": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0a983f" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/ja/index.html.vue")),
   // path: /notice/

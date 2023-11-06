@@ -24,6 +24,11 @@
 </ol>
 <p>若成功克隆，你应该在“资源管理器”面板（快捷键 Ctrl+Shift+E）中看到类似这样的目录：</p>
 <figure><img src="@source/document/image-2.png" alt="目录" width="200" height="250" tabindex="0" loading="lazy"><figcaption>目录</figcaption></figure>
+<h3 id="_3-安装依赖" tabindex="-1"><a class="header-anchor" href="#_3-安装依赖" aria-hidden="true">#</a> 3. 安装依赖</h3>
+<p>依赖即开发所需要的软件包。<br>
+在克隆的文件夹中打开终端，输入</p>
+<div class="language-pnpm line-numbers-mode" data-ext="pnpm"><pre v-pre class="language-pnpm"><code>pnpm i
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>即可安装所需依赖。</p>
 <h2 id="开始开发" tabindex="-1"><a class="header-anchor" href="#开始开发" aria-hidden="true">#</a> 开始开发</h2>
 <h3 id="_1-启动开发服务器" tabindex="-1"><a class="header-anchor" href="#_1-启动开发服务器" aria-hidden="true">#</a> 1. 启动开发服务器</h3>
 <p>在 VS Code 中打开终端（快捷键 Ctrl+`），输入</p>
@@ -40,11 +45,11 @@
 <h3 id="_2-项目文件结构" tabindex="-1"><a class="header-anchor" href="#_2-项目文件结构" aria-hidden="true">#</a> 2. 项目文件结构</h3>
 <p>以下是一些主要文件 / 文件夹的功能：</p>
 <div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>.
-|── node_modules → 依赖包
+|── node_modules → 存放依赖
+├── .github → 存放 GitHub 工作流，不要改动！
 ├── src → 网站内容的源文件夹
 │    ├── .vuepress → 存放全局配置、组件、静态资源等
-│    │    ├── dist → 构建好静态网页会输出到这里
-│    │    ├── release → 存放网站的正式发布版本
+│    │    ├── dist → 静态网页输出位置
 │    │    ├── navbar → 存放导航栏组件配置
 │    │    ├── sidebar → 存放侧边栏组件配置
 │    │    ├── public → 存放图片、图标等静态资源
@@ -60,8 +65,9 @@
 │    │    ├── notice → 对应网站 “通知” 页面的日语版本
 |    │    └── README.md → 网站主页的日语版本
 │    └── README.md → 网站主页
-└── package.json → Nodejs 配置文件
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-markdown-介绍" tabindex="-1"><a class="header-anchor" href="#_3-markdown-介绍" aria-hidden="true">#</a> 3. Markdown 介绍</h3>
+├── package.json → Nodejs 配置文件
+└── pnpm-lock.yaml → pnpm 配置文件
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-markdown-介绍" tabindex="-1"><a class="header-anchor" href="#_3-markdown-介绍" aria-hidden="true">#</a> 3. Markdown 介绍</h3>
 <p>Markdown 是一种轻量级标记语言，用一些简单符号来轻松表达文字的格式、排版。Markdown 的基础教程请参考 <a href="https://markdown.com.cn/basic-syntax/" target="_blank" rel="noopener noreferrer">Markdown中文教程<ExternalLinkIcon/></a> 。</p>
 <p>Vuepress 使用拓展的 Markdown 语法来编写网页的主要内容，每个页面都是一个 Markdown 文件。点开<code v-pre>/src/README.md</code>，你就能看到网站主页对应的 Markdown 文件了。</p>
 <p>需要注意的是，文件开头用<code v-pre>---</code>包围的内容叫 Frontmatter，用于写页面的配置（主页比较特殊，只写了 Frontmatter 没有写正文内容）。下面介绍一些重要的 Frontmatter 属性：</p>
@@ -73,14 +79,8 @@
 <li>comment: 是否打开评论功能</li>
 </ul>
 <p>更多 Frontmatter 属性请参考 <a href="https://vuepress-theme-hope.github.io/v2/zh/config/frontmatter/info.html" target="_blank" rel="noopener noreferrer">Frontmatter配置<ExternalLinkIcon/></a>。</p>
-<p>Frontmatter 后就是正文部分，正文部分可以用 Markdown 语法书写。</p>
-<h2 id="构建静态网站" tabindex="-1"><a class="header-anchor" href="#构建静态网站" aria-hidden="true">#</a> 构建静态网站</h2>
-<p>打开终端，输入</p>
-<div class="language-pnpm line-numbers-mode" data-ext="pnpm"><pre v-pre class="language-pnpm"><code>pnpm run docs:build
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>即可构建静态网站。若看到类似于</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>success VuePress build completed in 87.15s!
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>的输出，说明构建成功。这一过程一般要花一两分钟。构建好的静态网站默认输出在<code v-pre>/.vuepress/dist/</code>文件夹中。</p>
-<p>如果直接打开 dist 文件夹下的 index.html，网站的样式会加载不出，这是正常现象。</p>
+<p>Frontmatter 后就是正文部分，正文部分可以用 Markdown 语法书写。<br>
+Vuepress 中使用的拓展语法参见 <a href="https://theme-hope.vuejs.press/zh/guide/markdown/intro.html" target="_blank" rel="noopener noreferrer">Markdown增强<ExternalLinkIcon/></a></p>
 <h2 id="把网站推送到云端" tabindex="-1"><a class="header-anchor" href="#把网站推送到云端" aria-hidden="true">#</a> 把网站推送到云端</h2>
 <p>在更改完网页后，在 VS Code 中打开源代码管理面板（快捷键 Ctrl+Shift+G）然后完成以下步骤：</p>
 <ol>
