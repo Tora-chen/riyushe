@@ -35,6 +35,14 @@ GitHub 是一个以 Git 为中心的代码托管平台。本网站的代码托�
 
 ![目录](image-2.png =200x250)
 
+### 3. 安装依赖
+依赖即开发所需要的软件包。
+在克隆的文件夹中打开终端，输入
+```pnpm
+pnpm i
+```
+即可安装所需依赖。
+
 ## 开始开发
 ### 1. 启动开发服务器
 在 VS Code 中打开终端（快捷键 Ctrl+`），输入
@@ -58,11 +66,11 @@ pnpm docs:dev
 
 ```
 .
-|── node_modules → 依赖包
+|── node_modules → 存放依赖
+├── .github → 存放 GitHub 工作流，不要改动！
 ├── src → 网站内容的源文件夹
 │    ├── .vuepress → 存放全局配置、组件、静态资源等
-│    │    ├── dist → 构建好静态网页会输出到这里
-│    │    ├── release → 存放网站的正式发布版本
+│    │    ├── dist → 静态网页输出位置
 │    │    ├── navbar → 存放导航栏组件配置
 │    │    ├── sidebar → 存放侧边栏组件配置
 │    │    ├── public → 存放图片、图标等静态资源
@@ -78,7 +86,8 @@ pnpm docs:dev
 │    │    ├── notice → 对应网站 “通知” 页面的日语版本
 |    │    └── README.md → 网站主页的日语版本
 │    └── README.md → 网站主页
-└── package.json → Nodejs 配置文件
+├── package.json → Nodejs 配置文件
+└── pnpm-lock.yaml → pnpm 配置文件
 ```
 
 ### 3. Markdown 介绍
@@ -96,19 +105,7 @@ Vuepress 使用拓展的 Markdown 语法来编写网页的主要内容，每个�
 更多 Frontmatter 属性请参考 [Frontmatter配置](https://vuepress-theme-hope.github.io/v2/zh/config/frontmatter/info.html)。
 
 Frontmatter 后就是正文部分，正文部分可以用 Markdown 语法书写。
-
-## 构建静态网站
-打开终端，输入
-```pnpm
-pnpm run docs:build
-```
-即可构建静态网站。若看到类似于
-```
-success VuePress build completed in 87.15s!
-```
-的输出，说明构建成功。这一过程一般要花一两分钟。构建好的静态网站默认输出在```/.vuepress/dist/```文件夹中。
-
-如果直接打开 dist 文件夹下的 index.html，网站的样式会加载不出，这是正常现象。
+Vuepress 中使用的拓展语法参见 [Markdown增强](https://theme-hope.vuejs.press/zh/guide/markdown/intro.html)
 
 ## 把网站推送到云端
 在更改完网页后，在 VS Code 中打开源代码管理面板（快捷键 Ctrl+Shift+G）然后完成以下步骤：
