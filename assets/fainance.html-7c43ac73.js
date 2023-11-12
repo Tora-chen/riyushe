@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as n,a as t}from"./app-f6b5786a.js";const c={},a=t("p",null,"Coming soon……",-1),s=[a];function _(r,i){return o(),n("div",null,s)}const m=e(c,[["render",_],["__file","fainance.html.vue"]]);export{m as default};
