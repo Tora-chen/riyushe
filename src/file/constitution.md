@@ -1,15 +1,9 @@
 ---
-home: true
 title: 社团章程
-heroText: false
 copyright: false
-sidebar: true
-footer: Copyright © 2023 NCUT 日语社 | 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议 
+comment: false
+footer: false
 ---
-___
-<a href="/file"><HopeIcon icon="/return.svg" size = "2rem"/></a>
-
-## 社团章程
 ### 第一章 总则
 第一条 协会性质：本组织全名是“北方工业大学日语社”，以校区日语爱好者为基础而创建的社团组织。接受校团委直接领导和统一管理。 
 第二条 协会目的：

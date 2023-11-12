@@ -1,17 +1,19 @@
 <template><div><p>本网站使用 VuePress 开发。VuePress 是一个以 Markdown 为中心的静态网站生成器，使用 Markdown 来书写内容 (如文档、博客等) ，得到用于展示的静态网站。</p>
+<p>VuePress 官方文档：<a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">VuePress<ExternalLinkIcon/></a></p>
+<p>VuePress-Theme-Hope 文档：<a href="https://theme-hope.vuejs.press/zh/guide/" target="_blank" rel="noopener noreferrer">VuePress Theme Hope<ExternalLinkIcon/></a></p>
 <h2 id="开发准备" tabindex="-1"><a class="header-anchor" href="#开发准备" aria-hidden="true">#</a> 开发准备</h2>
 <h3 id="_1-运行环境" tabindex="-1"><a class="header-anchor" href="#_1-运行环境" aria-hidden="true">#</a> 1. 运行环境</h3>
 <p>运行环境指的是在本地开发所需要的软件工具，包括 Node.js、VS Code、Pnpm 等。</p>
 <p>VuePress 的环境配置请参考：<a href="https://theme-hope.vuejs.press/zh/cookbook/tutorial/env.html" target="_blank" rel="noopener noreferrer">环境配置<ExternalLinkIcon/></a></p>
 <h3 id="_2-克隆网站存储库到本地" tabindex="-1"><a class="header-anchor" href="#_2-克隆网站存储库到本地" aria-hidden="true">#</a> 2. 克隆网站存储库到本地</h3>
-<p>GitHub 是一个以 Git 为中心的代码托管平台。本网站的代码托管在 <a href="https://github.com/ncut-jaclub/club-website" target="_blank" rel="noopener noreferrer">此处<ExternalLinkIcon/></a> 。</p>
-<p>我们可以使用 VS Code 将代码克隆到本地：</p>
+<p>GitHub 是一个以 Git 为中心的代码托管平台。本网站的代码托管在 <a href="https://github.com/Tora-chen/riyushe" target="_blank" rel="noopener noreferrer">此处<ExternalLinkIcon/></a> 。</p>
+<p>我们可以使用 VS Code 将代码克隆到本地（可能需要科学上网）：</p>
 <ol>
 <li>在 VS Code 中打开“源代码管理”面板（快捷键 Ctrl+Shift+G），点击“克隆仓库”。</li>
 </ol>
 <figure><img src="@source/document/image.png" alt="源代码管理面板" width="300" height="500" tabindex="0" loading="lazy"><figcaption>源代码管理面板</figcaption></figure>
 <ol start="2">
-<li>在弹出的输入框中输入代码的存储库地址 <a href="https://github.com/ncut-jaclub/club-website.git" target="_blank" rel="noopener noreferrer">https://github.com/ncut-jaclub/club-website.git<ExternalLinkIcon/></a> ：</li>
+<li>在弹出的输入框中输入代码的存储库地址 <a href="https://github.com/Tora-chen/riyushe.git" target="_blank" rel="noopener noreferrer">https://github.com/Tora-chen/riyushe.git<ExternalLinkIcon/></a> ：</li>
 </ol>
 <figure><img src="@source/document/image-1.png" alt="输入存储库地址" width="650" height="150" tabindex="0" loading="lazy"><figcaption>输入存储库地址</figcaption></figure>
 <ol start="3">
@@ -82,7 +84,8 @@
 <p>Frontmatter 后就是正文部分，正文部分可以用 Markdown 语法书写。<br>
 Vuepress 中使用的拓展语法参见 <a href="https://theme-hope.vuejs.press/zh/guide/markdown/intro.html" target="_blank" rel="noopener noreferrer">Markdown增强<ExternalLinkIcon/></a></p>
 <h2 id="把网站推送到云端" tabindex="-1"><a class="header-anchor" href="#把网站推送到云端" aria-hidden="true">#</a> 把网站推送到云端</h2>
-<p>在更改完网页后，在 VS Code 中打开源代码管理面板（快捷键 Ctrl+Shift+G）然后完成以下步骤：</p>
+<p>推送需要先获取 GitHub 上本项目的推送权限，推送前请联系社长。<br>
+在更改完网页后，在 VS Code 中打开源代码管理面板（快捷键 Ctrl+Shift+G）然后完成以下步骤：</p>
 <ol>
 <li>点击“更改”一栏后的加号，暂存所有更改</li>
 <li>在“消息”输入框中描述你这次修改的内容（尽量言简意赅，建议使用英语）</li>

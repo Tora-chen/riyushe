@@ -1,7 +1,4 @@
-<template><div><hr>
-<p><a href="/file"><HopeIcon icon="/return.svg" size = "2rem"/></a></p>
-<h2 id="社团章程" tabindex="-1"><a class="header-anchor" href="#社团章程" aria-hidden="true">#</a> 社团章程</h2>
-<h3 id="第一章-总则" tabindex="-1"><a class="header-anchor" href="#第一章-总则" aria-hidden="true">#</a> 第一章 总则</h3>
+<template><div><h3 id="第一章-总则" tabindex="-1"><a class="header-anchor" href="#第一章-总则" aria-hidden="true">#</a> 第一章 总则</h3>
 <p>第一条 协会性质：本组织全名是“北方工业大学日语社”，以校区日语爱好者为基础而创建的社团组织。接受校团委直接领导和统一管理。<br>
 第二条 协会目的：<br>
 1、丰富校园文化活动形式，为热爱日语的同学提供交流平台，也为打算学习日语的同学提供机会；并继续宣传和发扬大学生乐于学习精神，让大学生毕业时在拿到毕业证和学位证书的同时还能拥有多一点的外语基础。<br>

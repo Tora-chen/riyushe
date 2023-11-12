@@ -1,11 +1,10 @@
 ---
 title: 开发文档
 icon: code
-sidebar: structure
 copyright: false
 comment: false
 card: true
-footer: Copyright © 2023 NCUT 日语社 | 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议 
+footer: false 
 ---
 本网站使用 VuePress 开发。VuePress 是一个以 Markdown 为中心的静态网站生成器，使用 Markdown 来书写内容 (如文档、博客等) ，得到用于展示的静态网站。
 

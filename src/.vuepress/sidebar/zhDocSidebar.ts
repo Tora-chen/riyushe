@@ -9,6 +9,14 @@ export const zhDocSidebar = sidebar({
       children: "structure",
     },
   ],
+  "/file/": [
+    {
+      text: "",
+      icon: "",
+      prefix: "",
+      children: "structure",
+    },
+  ],
 
   "/journal/": [
     {

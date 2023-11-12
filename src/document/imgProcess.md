@@ -1,7 +1,6 @@
 ---
 title: 图片预处理
 icon: image
-sidebar: structure
 copyright: false
 comment: false
 card: true
