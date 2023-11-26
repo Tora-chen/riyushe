@@ -1,5 +1,6 @@
 ---
 title: 社团章程
+order: 1
 copyright: false
 comment: false
 footer: false

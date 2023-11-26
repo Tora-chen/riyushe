@@ -1,5 +1,6 @@
 ---
 title: 学生社团活动指导
+order: 2
 copyright: false
 comment: false
 footer: false

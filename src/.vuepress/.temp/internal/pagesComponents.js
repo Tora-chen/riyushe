@@ -9,20 +9,20 @@ export const pagesComponents = {
   "v-36b1a79b": defineAsyncComponent(() => import(/* webpackChunkName: "v-36b1a79b" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/document/index.html.vue")),
   // path: /file/constitution.html
   "v-740adfb8": defineAsyncComponent(() => import(/* webpackChunkName: "v-740adfb8" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/constitution.html.vue")),
-  // path: /file/fainance.html
-  "v-0b155d30": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b155d30" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/fainance.html.vue")),
+  // path: /file/finance.html
+  "v-204d0d19": defineAsyncComponent(() => import(/* webpackChunkName: "v-204d0d19" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/finance.html.vue")),
   // path: /file/
   "v-1491bada": defineAsyncComponent(() => import(/* webpackChunkName: "v-1491bada" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/index.html.vue")),
   // path: /file/zhidao.html
   "v-1876ad68": defineAsyncComponent(() => import(/* webpackChunkName: "v-1876ad68" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/zhidao.html.vue")),
-  // path: /ja/
-  "v-2d0a983f": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0a983f" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/ja/index.html.vue")),
-  // path: /notice/
-  "v-2e1e9184": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e1e9184" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/notice/index.html.vue")),
   // path: /journal/7-8.html
   "v-07ad1a70": defineAsyncComponent(() => import(/* webpackChunkName: "v-07ad1a70" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/journal/7-8.html.vue")),
   // path: /journal/
   "v-d04bbc5e": defineAsyncComponent(() => import(/* webpackChunkName: "v-d04bbc5e" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/journal/index.html.vue")),
+  // path: /ja/
+  "v-2d0a983f": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0a983f" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/ja/index.html.vue")),
+  // path: /notice/
+  "v-2e1e9184": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e1e9184" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/notice/index.html.vue")),
   // path: /ja/file/constitution.html
   "v-8c1f462c": defineAsyncComponent(() => import(/* webpackChunkName: "v-8c1f462c" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/ja/file/constitution.html.vue")),
   // path: /ja/file/
