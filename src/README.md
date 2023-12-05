@@ -17,6 +17,27 @@ heroText: NCUT 日语社
 tagline: 语言是我们所知的最庞大、最广博的艺术，是一代代人无意识地创造出的宏伟而无名的作品。<br>　　　　——《语言论》( Edward Sapir 著 )</p>
 
 highlights:
+  - header: 在这里，你可以——
+    description: 
+    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
+    highlights:
+      - title: 找到同好，成为社牛！
+        details: 日语社的同学们多才多艺，来这里交到和你一样或是热爱唱歌、或是喜欢配音、或是痴迷日剧的知心朋友吧！
+
+      - title: 一起学习，变成大佬！
+        details: 社团提供多方面的日语学习指导与实际应用场景，在这里入门或是进阶日语吧！
+
+      - title: 唱歌配音，不在话下！
+        details: 和大家一起学唱好听的日语歌、一起学念感人的台词！
+        
+      - title: 练好口语，秀出口才！
+        details: 在每周的日语角和同好或留学生交流，练出你落落大方、出口成章的口语能力！
+    
+      - title: 实用技能，统统 get ！
+        details: 想要更好的口才？想更擅长人际交往？想掌握某项工作技能？各种能力都可以在社团有锻炼自己的机会！
+
+
   - header: 部门介绍
     description: 
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
@@ -27,7 +48,7 @@ highlights:
     features:
       - title: 音声部
         icon: /music-alt.svg
-        details: 每次看番剧，打游戏时都为其中声优们的精彩演绎所折服吗？想了解他们的幕后工作，像他们一样激昂地说出「止↑ま↓る↑ん↓じゃ↑ねぇぞ↓」吗？<br><br> 爱听J-pop，喜欢日本音乐的同学，还在苦于唱不出流利的日语歌吗？<br><br> 各位想要提升日语口语水平，想要通过 JLPT 听力小伙伴还在犹豫什么？<br><br> 我们有合唱企划、配音活动、口语练习、日语歌曲翻唱等等活动，音声部欢迎大家加入！<br><br><br><img src="/onseibu.jpg" style="border-radius:15px;width:100%;height:100%">
+        details: 每次看番剧，打游戏时都为其中声优们的精彩演绎所折服吗？想了解他们的幕后工作，像他们一样激昂地说出「心脏撒撒给哟」吗？<br><br> 爱听J-pop，喜欢日本音乐的同学，还在苦于唱不出流利的日语歌吗？<br><br> 各位想要提升日语口语水平，想要通过 JLPT 听力小伙伴还在犹豫什么？<br><br> 我们有合唱企划、配音活动、口语练习、日语歌曲翻唱等等活动，音声部欢迎大家加入！<br><br><br><img src="/onseibu.jpg" style="border-radius:15px;width:100%;height:100%">
 
       - title: 教学部
         icon: /books.svg
@@ -44,15 +65,14 @@ highlights:
       - title: Comming Soon……
         icon: /question.svg
         details: <br><br><br><br><br>还可以有什么部门呢……<br><br>期待你的创造！<br><br><br><br><br><br><br><br><br><img src="/discover.png" style="border-radius:15px;width:100%;height:100%">
-
-  - header: 加入我们
+  - header: 加入我们!
     image: /Weixin_yellow.png
     imageStyle:
       width: 100%
       border-radius: 5%
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    description: 我们欢迎所有对日语感兴趣的同学加入我们！无论你是二次元还是三次元、喜欢日本文化或是热爱语言、日语小白或是 N1 大佬、热爱唱歌、尝试配音、痴迷日剧，都可以在日语社里找到同好。更多的故事，期待你的加入！
+    description: 欢迎所有对日语感兴趣的同学加入我们！无论你是二次元还是三次元、喜欢日本文化或是热爱语言、日语小白或是 N1 大佬、热爱唱歌、尝试配音、痴迷日剧，都可以在日语社里找到同好。更多的故事，期待你来创造！
     highlights: 
       - title: 微信群：扫描右侧或上方二维码 
       - title: 微信公众号："NCUT 日语社"
@@ -74,12 +94,13 @@ highlights:
         details: 社团活动不多且基于自愿原则，不影响课内学习。你可以根据自己的情况选择参加活动！
     
       - title: 日语社有留学生吗？
-        details: 有的！除了疫情期间暂停了与留学生的交流活动，日语社在2019年前、今年都有留学生加入！
+        details: 有的！除了疫情期间暂停了与留学生的交流活动，日语社在2019年前、今年都有留学生的参与！
 
   - header: <br>期待你的到来！<br><br>
     image: /hand-wave.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+        
 
 copyright: false
 footer: Copyright © 2023 NCUT 日语社 | 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议 

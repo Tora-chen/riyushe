@@ -13,12 +13,12 @@ export const pagesData = {
   "v-1491bada": () => import(/* webpackChunkName: "v-1491bada" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/index.html.js").then(({ data }) => data),
   // path: /file/zhidao.html
   "v-1876ad68": () => import(/* webpackChunkName: "v-1876ad68" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/file/zhidao.html.js").then(({ data }) => data),
+  // path: /ja/
+  "v-2d0a983f": () => import(/* webpackChunkName: "v-2d0a983f" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/ja/index.html.js").then(({ data }) => data),
   // path: /journal/7-8.html
   "v-07ad1a70": () => import(/* webpackChunkName: "v-07ad1a70" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/journal/7-8.html.js").then(({ data }) => data),
   // path: /journal/
   "v-d04bbc5e": () => import(/* webpackChunkName: "v-d04bbc5e" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/journal/index.html.js").then(({ data }) => data),
-  // path: /ja/
-  "v-2d0a983f": () => import(/* webpackChunkName: "v-2d0a983f" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/ja/index.html.js").then(({ data }) => data),
   // path: /notice/
   "v-2e1e9184": () => import(/* webpackChunkName: "v-2e1e9184" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/notice/index.html.js").then(({ data }) => data),
   // path: /ja/file/constitution.html
