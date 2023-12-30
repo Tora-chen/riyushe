@@ -21,6 +21,10 @@ export const pagesData = {
   "v-d04bbc5e": () => import(/* webpackChunkName: "v-d04bbc5e" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/journal/index.html.js").then(({ data }) => data),
   // path: /notice/
   "v-2e1e9184": () => import(/* webpackChunkName: "v-2e1e9184" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/notice/index.html.js").then(({ data }) => data),
+  // path: /sharing/
+  "v-ab53d668": () => import(/* webpackChunkName: "v-ab53d668" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/sharing/index.html.js").then(({ data }) => data),
+  // path: /sharing/xuan_ke_zhi_nan.html
+  "v-f44086c4": () => import(/* webpackChunkName: "v-f44086c4" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/sharing/xuan_ke_zhi_nan.html.js").then(({ data }) => data),
   // path: /ja/file/constitution.html
   "v-8c1f462c": () => import(/* webpackChunkName: "v-8c1f462c" */"D:/3.文档/GitHub/ncut-jaclub/src/.vuepress/.temp/pages/ja/file/constitution.html.js").then(({ data }) => data),
   // path: /ja/file/

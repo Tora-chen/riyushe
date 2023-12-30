@@ -5,5 +5,6 @@ export const zhNavbar = navbar([
   "/notice/",
   "/journal/",
   "/file/",
+  "/sharing/",
   "/document/",
 ]);

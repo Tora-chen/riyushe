@@ -26,4 +26,12 @@ export const zhDocSidebar = sidebar({
       children: "structure",
     },
   ],
+  "/sharing/": [
+    {
+      text: "",
+      icon: "",
+      prefix: "",
+      children: "structure",
+    },
+  ],
 });
