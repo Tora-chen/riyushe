@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as a,a as e,b as c}from"./app-41a1efc7.js";const r={},s=e("p",null,[c("在新标签页中打开下载："),e("br"),e("a",{href:"/zhidao.pdf"},"学生社团活动指导")],-1),_=[s];function n(d,i){return t(),a("div",null,_)}const h=o(r,[["render",n],["__file","zhidao.html.vue"]]);export{h as default};
